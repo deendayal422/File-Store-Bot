@@ -1,17 +1,17 @@
 import os
 
 class Config(object):
-  API_ID = int(os.environ.get("API_ID", ""))
-  API_HASH = os.environ.get("API_HASH", "")
-  BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-  BOT_USERNAME = os.environ.get("BOT_USERNAME", "")
-  DB_CHANNEL = int(os.environ.get("DB_CHANNEL", ""))
-  SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "MoneyKamalo.com")
-  SHORTLINK_API = os.environ.get('SHORTLINK_API', "0eefb93e1e3ce9470a7033115ceb1bad13a9d674")
-  BOT_OWNER = int(os.environ.get("BOT_OWNER", ""))
-  DATABASE_URL = os.environ.get("DATABASE_URL", "")
-  UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "")
-  LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", ""))
+  API_ID = int(os.environ.get("API_ID", "16681004"))
+  API_HASH = os.environ.get("API_HASH", "161b61f5a06dd299a3d88a3384b9f104")
+  BOT_TOKEN = os.environ.get("BOT_TOKEN", "6431557817:AAG4duOW33YXU9U7lF56cGbYdOj9xFRp03w")
+  BOT_USERNAME = os.environ.get("BOT_USERNAME", "Deendayal_Storage_bot")
+  DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002137665979"))
+  SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "ziplinker.net")
+  SHORTLINK_API = os.environ.get('SHORTLINK_API', "4859713bcbf09f6fca6de13b5f88bbf29ea5ea6c")
+  BOT_OWNER = int(os.environ.get("BOT_OWNER", "6646028262"))
+  DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://sonamdhakad432:ysfYedQ39BKpq0Q1@cluster0.aap18zd.mongodb.net/?retryWrites=true&w=majority")
+  UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1001786865459")
+  LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002021571773"))
   BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "").split())
   FORWARD_AS_COPY = bool(os.environ.get("FORWARD_AS_COPY", True))
   BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", True))
@@ -32,11 +32,11 @@ Send Me any Media or File. I can Work In Channel too. Add Me to Channel with Edi
 ╰──────[ 😎 ]───────────⍟
 """
   ABOUT_DEV_TEXT = f"""
-🧑🏻‍💻 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿: [VJ](https://telegram.me/KingVj01)
+🧑🏻‍💻 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿: [Deendayal dhakad](https://telegram.me/Deendayal_dhakad)
  
  I am Super noob Please Support My Hard Work.
 
-[Donate Me](https://t.me/KingVj01)
+[Donate Me](https://t.me/Deendayal_dhakad)
 """
   HOME_TEXT = """
 Hello, [{}](tg://user?id={})\n\nThis is a Permanent **FileStore Bot**.
