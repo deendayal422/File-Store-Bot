@@ -64,4 +64,3 @@ async def handle_force_sub(bot: Client, cmd: Message):
         )
         return 200
     return 200
-Enter
