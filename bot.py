@@ -74,16 +74,7 @@ async def start(bot: Client, cmd: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Updates Channel", url="https://t.me/Deendayal_dhakad")
-                    ],
-                    [
-                        InlineKeyboardButton("About Bot", callback_data="aboutbot"),
-                        InlineKeyboardButton("About Dev", callback_data="aboutdevs"),
-                        InlineKeyboardButton("Close 🚪", callback_data="closeMessage")
-                    ],
-                    [
-                        InlineKeyboardButton("Support Group", url="https://t.me/Deendayal_dhakad_Group"),
-                        InlineKeyboardButton("YouTube Channel", url="https://youtube.com/@Deendayal_dhaked")
+                        InlineKeyboardButton("Updates Channel", url="https://t.me/")
                     ]
                 ]
             )
