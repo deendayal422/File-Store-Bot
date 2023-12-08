@@ -3,9 +3,9 @@ import os
 class Config(object):
   API_ID = int(os.environ.get("API_ID", "16681004"))
   API_HASH = os.environ.get("API_HASH", "161b61f5a06dd299a3d88a3384b9f104")
-  BOT_TOKEN = os.environ.get("BOT_TOKEN", "6431557817:AAG4duOW33YXU9U7lF56cGbYdOj9xFRp03w")
+  BOT_TOKEN = os.environ.get("BOT_TOKEN", "6900413422:AAGVUbLKejpg0scLNnW8wFh0ofsV8qrLesU")
   BOT_USERNAME = os.environ.get("BOT_USERNAME", "Deendayal_Storage_bot")
-  DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002137665979"))
+  DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002082625532"))
   SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "ziplinker.net")
   SHORTLINK_API = os.environ.get('SHORTLINK_API', "4859713bcbf09f6fca6de13b5f88bbf29ea5ea6c")
   BOT_OWNER = int(os.environ.get("BOT_OWNER", "6646028262"))
