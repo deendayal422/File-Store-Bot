@@ -74,7 +74,7 @@ async def start(bot: Client, cmd: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Share And Support Us, url= "https://t.me/Public_File_storage_Bot")
+                        InlineKeyboardButton("⚜️File Store Bot⚜️", url="https://t.me/Public_File_storage_Bot")
                     ]
                 ]
             )
