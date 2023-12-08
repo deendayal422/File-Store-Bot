@@ -40,6 +40,3 @@ Send Me any Media or File. I can Work In Channel too. Add Me to Channel with Edi
 """
   HOME_TEXT = """
 Hello, [{}](tg://user?id={})\n\nThis is a Permanent **FileStore Bot**.
-
-📢 Send me any File & It will be uploaded in My Database & You will Get the File Link.
-""""
