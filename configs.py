@@ -4,7 +4,7 @@ class Config(object):
   API_ID = int(os.environ.get("API_ID", "16681004"))
   API_HASH = os.environ.get("API_HASH", "161b61f5a06dd299a3d88a3384b9f104")
   BOT_TOKEN = os.environ.get("BOT_TOKEN", "6900413422:AAGVUbLKejpg0scLNnW8wFh0ofsV8qrLesU")
-  BOT_USERNAME = os.environ.get("BOT_USERNAME", "Deendayal_Storage_bot")
+  BOT_USERNAME = os.environ.get("BOT_USERNAME", "Public_File_storage_Bot")
   DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002082625532"))
   SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "ziplinker.net")
   SHORTLINK_API = os.environ.get('SHORTLINK_API', "4859713bcbf09f6fca6de13b5f88bbf29ea5ea6c")
@@ -20,3 +20,30 @@ class Config(object):
   ABOUT_BOT_TEXT = f"""
 This is a Permanent FileStore Bot. 
 Send Me any Media or File. I can Work In Channel too. Add Me to Channel with Edit Permission, I will add save Uploaded File in Channel and Share a Shareable Link. 
+
+╭────[ 🔅FɪʟᴇSᴛᴏʀᴇBᴏᴛ🔅]────⍟
+│
+├🔸 My Name: [FileStore Bot](https://t.me/{BOT_USERNAME})
+│
+├🔸 Language: [Python 3](https://www.python.org)
+│
+├🔹 Library: [Pyrogram](https://docs.pyrogram.org)
+│
+╰──────[ 😎 ]───────────⍟
+"""
+  ABOUT_DEV_TEXT = f"""
+🧑🏻‍💻 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿: [Deendayal dhakad](https://telegram.me/Deendayal_dhakad)
+ 
+ I am Super noob Please Support My Hard Work.
+
+[Donate Me](https://t.me/Deendayal_dhakad)
+"""
+  HOME_TEXT = """
+Hello, [{}](tg://user?id={})\n\nThis is a Permanent **FileStore Bot**.
+
+How to Use Bot & it's Benefits??
+
+📢 Send me any File & It will be uploaded in My Database & You will Get the File Link.
+
+⚠️ Benefits: If you have a TeleGram Movie Channel or Any Copyright Channel, Then Its Useful for Daily Usage, You can Send Me Your File & I will Send Permanent Link to You & Channel will be Safe from **CopyRight Infringement** Issue. I support Channel Also You Can Check **About Bot**.
+"""
