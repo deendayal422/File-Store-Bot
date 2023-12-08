@@ -60,7 +60,7 @@ async def handle_force_sub(bot: Client, cmd: Message):
         await bot.send_message(
             chat_id=cmd.from_user.id,
             text="Hello, Guys ♥️♥️♥️♥️",
-            disable_web_page_preview=True
+            disable_web_page_preview=False
         )
         return 200
     return 200
